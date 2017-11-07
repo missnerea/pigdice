@@ -5,3 +5,41 @@
 body {
 background-image: url('../img/B_dice_52qkfisu.jpg');
 }
+
+#header {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+        border-radius: 0px 0px 20px 20px;
+    border-bottom: 1px solid #001f75;
+     box-shadow: 0px 0px 30px #ccc;
+}
+
+#header h1 {
+    font-size: 45px;
+    color: #001f75;
+    font-weight: bolder;
+}
+
+#rulesSection {
+    background-color: rgba(238, 238, 238, 0.4);
+    margin: auto;
+    box-shadow: 0px 0px 10px #ccc;
+    padding: 2px 10px 2px 10px;
+    width: 70%;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+}
+#rulesHeader {
+    padding: 0px;
+    margin: 0px;
+}
+
+#rules{
+    border-bottom: 1px solid black;
+     font-size: 20px;
+    font-weight: bolder;
+}
