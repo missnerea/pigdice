@@ -8,10 +8,27 @@
     <title>Pig Dice Game</title>
   </head>
   <body>
-
+    <div id="header">
+    <h1>Lets Play Pig Dice !</h1>
+    </div>
+    <section id="rulesSection">
+        <div id="rulesHeader">
+            <h3 id="rules">Rules</h3>
+        </div>
+        <div id="rulesDefinitions">
+            <p>This is a simple dice game where two players have the chance to roll the dice to try and achieve a score of 100.</p>
+            <p>The rules of the game are:</p>
+            <ul>
+                <li>When the player rolls a 2 - 6, the dice score is added to their turn total and they can continue to play.</li>
+                <li>When a player rolls a 1, their total score reverts to 0 and it becomes the next player's turn.</li>
+                <li>When the player chooses to "hold"(pass their turn), their turn total is added to their total score, and it becomes the next player's turn.</li>
+                <li>The player who first scores 100 or more points wins the game.</li>
+            </ul>
+            <p>Try your luck!!!</p>
+        </div>
+    </section>
     <div class="start-menu container">
       <div class="jumbotron">
-        <h1>Let's play Pig Dice!</h1>
           <form id="player-1">
             <div class="form-group">
               <label for="player1Name">Player 1 Name:</label>
