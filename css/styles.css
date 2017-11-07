@@ -1,0 +1,89 @@
+form {
+  text-align: center;
+}
+
+button {
+  margin: 10px;
+  align-self: center;
+}
+
+li {
+  color:black;
+}
+
+.jumbotron{
+  text-align: center;
+  font-size: 4em;
+  background-color: #ff6699;
+  font-family: 'Bungee Shade', cursive;
+}
+.col-md-5 {
+  border: 2px solid black;
+}
+
+.showTurnTotal {
+  display: none;
+  font-size: 200%;
+}
+
+.gameStuff {
+  display: none;
+}
+
+#navBarList {
+  font-size: 1.2em;
+  cursor: pointer;
+  color: #0088cc;
+}
+
+#navBarList:hover {
+  text-decoration: underline;
+}
+
+#rollResult {
+  border: 2px solid black;
+  display: none;
+  background:#ff6699;
+  text-align: center;
+  font-size: 3em;
+}
+
+#turnTotalStuff {
+  text-align: center;
+
+}
+
+#turnTotal {
+    text-align: center;
+    border: 2px solid black;
+    font-size: 3em;
+}
+
+#player1Display {
+  display: none;
+  text-align: center;
+  border: 2px solid black;
+  color: #ff6699;
+  background-color: black;
+}
+
+#player2Display {
+  display: none;
+  text-align: center;
+  border: 2px solid black;
+  color: #ff6699;
+  background-color: black;
+}
+
+
+#turnTotalStuff {
+  border: 2px dashed black;
+  }
+
+#imgID {
+  margin-left: 30%;
+}
+
+.row {
+  text-align: center;
+}
